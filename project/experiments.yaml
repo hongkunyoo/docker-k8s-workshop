@@ -1,0 +1,29 @@
+- script: !IMAGE:model01
+  args:
+  - [10, softmax,  0.2]
+  - [10, relu,     0.3]
+  - [10, tanh,     0.4]
+  - [10, linear,   0.5]
+  - [10, sigmoid,  0.6]
+
+- script: !IMAGE:model02
+  args:
+  args:
+  - [10, softmax,  0.2]
+  - [10, relu,     0.3]
+  - [10, tanh,     0.4]
+  - [10, linear,   0.5]
+  - [10, sigmoid,  0.6]
+
+- script: !IMAGE:model03
+  args:
+  - [10, softmax,  0.2]
+  - [10, relu,     0.3]
+  - [10, tanh,     0.4]
+  - [10, linear,   0.5]
+  - [10, sigmoid,  0.6]
+
+- script: !IMAGE:oom
+  args:
+  - [10, softmax,  0.2]
+  - [10, relu,     0.3]

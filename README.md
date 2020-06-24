@@ -3,10 +3,9 @@
 ## 실습환경
 
 - OS: ubuntu 18.04
-- root user
+- root user (sudo)
 - CPU 2 core / MEM 1G / Disk 50G
 - Public IP 권장 (EC2 / GCE / Azure VM)
-
 
 ## 도커
 

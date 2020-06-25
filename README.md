@@ -4,8 +4,15 @@
 
 - OS: ubuntu 18.04
 - root user (sudo)
-- CPU 2 core / MEM 1G / Disk 50G
+- CPU 2 core / MEM 4G / Disk 50G
 - Public IP 권장 (EC2 / GCE / Azure VM)
+
+## 사전지식
+- 리눅스 기본 지식이 필요합니다. (ssh, vim, apt, curl 등)
+- 간단한 프로그래밍 지식을 요구합니다. 언어는 무관하지만 이 책에서는 파이썬을 주로 다룹니다. 파이썬을 모르시더라도 전반적인 프로그래밍 지식만으로도 충분히 이해할 수 있습니다.
+- 간단한 클라우드 지식이 필요합니다.
+- `tmux`, `screen`과 같은 터미널 멀티플랙서를 사용하면 편리합니다.
+
 
 ## 도커
 
@@ -23,7 +30,7 @@
 4. [쿠버네티스 리소스](k8s/04.md)
 
 
-## 프로젝트
+## 프로젝트 (Optional)
 
 1. [Wordpress 서비스 만들기](project/01.md)
 2. [ML 모델 학습 시키기](project/02.md)

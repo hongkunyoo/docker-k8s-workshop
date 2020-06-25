@@ -13,6 +13,13 @@
 - 간단한 클라우드 지식이 필요합니다.
 - `tmux`, `screen`과 같은 터미널 멀티플랙서를 사용하면 편리합니다.
 
+## 클라우드 계정 만들기
+
+준비한 서버가 없다면 다음 클라우드 플랫폼을 이용하여 무료로 서버를 생성하시기 바랍니다.
+
+- `GCP`: https://cloud.google.com/free/
+- `AWS`: https://aws.amazon.com/ko/s/dm/landing-page/start-your-free-trial/
+- `Azure`: https://azure.microsoft.com/ko-kr/free
 
 ## 도커
 
@@ -34,3 +41,22 @@
 
 1. [Wordpress 서비스 만들기](project/01.md)
 2. [ML 모델 학습 시키기](project/02.md)
+
+
+## 참고자료
+
+### Demo 클러스터
+- [Play with k8s](https://labs.play-with-k8s.com/)
+- [Playground](https://www.katacoda.com/courses/kubernetes/playground)
+
+### Examples & Tutorials
+- [쿠버네티스 공식 튜토리얼](https://kubernetes.io/docs/tutorials/)
+- [쿠버네티스 example](https://kubernetesbyexample.com/)
+
+### Books
+- [The Kubernetes Book](https://www.amazon.com/Kubernetes-Book-Version-January-2018-ebook/dp/B072TS9ZQZ/ref=sr_1_3?ie=UTF8&qid=1528625195&sr=8-3&keywords=kubernetes&dpID=41SyKBO3UcL&preST=_SX342_QL70_&dpSrc=srch)
+- [Designing Distributed System](https://azure.microsoft.com/en-us/resources/designing-distributed-systems/en-us/)
+
+### 읽을거리
+- [쿠버네티스란 무엇인가](https://subicura.com/2019/05/19/kubernetes-basic-1.html)
+- [쿠버네티스 관련 Blog: coffeewhale.com](https://coffeewhale.com)

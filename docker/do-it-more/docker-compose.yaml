@@ -1,0 +1,25 @@
+version: '3'
+services:
+  mysql:
+    image: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 1235
+      MYSQL_USER: ubuntu
+      MYSQL_PASSWORD: 1234
+  flask:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: ubuntu
+      MYSQL_PASSWORD: 1234
+  nginx:
+    image: "nginx"
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/etc/nginx/conf.d
+      - .:/usr/share/nginx/html

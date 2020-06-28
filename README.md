@@ -36,12 +36,10 @@
 3. [네트워킹](k8s/03.md)
 4. [쿠버네티스 리소스](k8s/04.md)
 
-
 ## 프로젝트 (Optional)
 
 1. [Wordpress 서비스 만들기](project/01.md)
 2. [ML 모델 학습 시키기](project/02.md)
-
 
 ## 참고자료
 

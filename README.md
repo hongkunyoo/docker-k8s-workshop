@@ -21,6 +21,31 @@
 - `AWS`: https://aws.amazon.com/ko/s/dm/landing-page/start-your-free-trial/
 - `Azure`: https://azure.microsoft.com/ko-kr/free
 
+## MobaXterm 설치
+
+---
+
+**![참고](info.png) 참고** 윈도우 운영체제 사용자에 한해서 설치합니다. 리눅스나 맥 운영체제를 사용하시는 경우 MobaXterm을 설치할 필요 없이 바로 각 운영체제에서 지원하는 터미널 프로그램을 사용하면 됩니다.
+
+---
+
+리눅스 서버로 접속할 터미널을 윈도우 서버에 설치합니다. `putty` ([https://www.putty.org](https://www.putty.org/)) 등 선호하는 터미널을 사용해도 무방합니다.
+
+1. MobaXterm 다운로드: [https://mobaxterm.mobatek.net/download.html](https://mobaxterm.mobatek.net/download.html)
+2. `Home Edition` > `Download now` 클릭
+3. `MobaXterm Home Edition (Portable edition)` 다운로드
+4. 다운로드 완료된 파일 압축 해제
+5. `Session` 버튼 > `SSH` 버튼 클릭
+6. Remote host / User 입력
+7. (Optional) Advanced SSH settings > Use private key (체크) > PEM키 등록
+
+![[그림 3-3] MobaXterm](https://github.com/hongkunyoo/handson-k8s/raw/master/03-install/03-03.png)
+
+---
+
+**![참고](info.png) 참고** Remote host와 User는 독자별 준비한 서버 정보를 입력합니다.
+
+
 ## 도커
 
 1. [도커 실행](docker/01.md)

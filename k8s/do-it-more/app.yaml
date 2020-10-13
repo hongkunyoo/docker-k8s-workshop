@@ -1,0 +1,50 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: app
+  name: app
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    run: app
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: app
+  name: app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: app
+  template:
+    metadata:
+      labels:
+        run: app
+    spec:
+      containers:
+      - name: app
+        image: hongkunyoo/app
+        ports:
+        - containerPort: 5000
+        volumeMounts:
+        - mountPath: /tmp
+          name: myvol
+        env:
+        - name: MYSQL_HOST
+          value: mysql
+        - name: MYSQL_USER
+          value: ubuntu
+        - name: MYSQL_PASSWORD
+          value: "1234"
+      volumes:
+      - name: myvol
+        hostPath:
+          path: /tmp

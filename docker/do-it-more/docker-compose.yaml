@@ -16,10 +16,5 @@ services:
       MYSQL_HOST: mysql
       MYSQL_USER: ubuntu
       MYSQL_PASSWORD: 1234
-  nginx:
-    image: "nginx"
-    ports:
-      - "8080:80"
     volumes:
-      - .:/etc/nginx/conf.d
-      - .:/usr/share/nginx/html
+      - .:/tmp

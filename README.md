@@ -25,7 +25,7 @@
 
 ---
 
-**![참고](info.png) 참고** 윈도우 운영체제 사용자에 한해서 설치합니다. 리눅스나 맥 운영체제를 사용하시는 경우 MobaXterm을 설치할 필요 없이 바로 각 운영체제에서 지원하는 터미널 프로그램을 사용하면 됩니다.
+**![참고](02.png) 참고** 윈도우 운영체제 사용자에 한해서 설치합니다. 리눅스나 맥 운영체제를 사용하시는 경우 MobaXterm을 설치할 필요 없이 바로 각 운영체제에서 지원하는 터미널 프로그램을 사용하면 됩니다.
 
 ---
 
@@ -39,11 +39,11 @@
 6. Remote host / User 입력
 7. (Optional) Advanced SSH settings > Use private key (체크) > PEM키 등록
 
-![[그림 3-3] MobaXterm](https://github.com/hongkunyoo/handson-k8s/raw/master/03-install/03-03.png)
+![[그림 3-3] MobaXterm](01.png)
 
 ---
 
-**![참고](info.png) 참고** Remote host와 User는 독자별 준비한 서버 정보를 입력합니다.
+**![참고](02.png) 참고** Remote host와 User는 독자별 준비한 서버 정보를 입력합니다.
 
 
 ## 도커
@@ -60,6 +60,7 @@
 2. [Pod 살펴보기](k8s/02.md)
 3. [네트워킹](k8s/03.md)
 4. [쿠버네티스 리소스](k8s/04.md)
+5. [helm 패키지 매니저](k8s/05.md)
 
 ## 프로젝트 (Optional)
 
